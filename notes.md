@@ -10,8 +10,8 @@
 
 ## AWS
 
-My IP address is: 54.81.96.130
-Launching my AMI I initially put it on a private subnet. Even though it had a public IP address and the security group was right, I wasn't able to connect to it.
+My IP address is: 54.221.158.191
+Took a bit to figure this step out but I ended up successfully running a server that serves my webpage.
 
 ## Caddy
 
@@ -19,9 +19,7 @@ No problems worked just like it said in the [instruction](https://github.com/web
 
 ## HTML
 
-This was easy. I was careful to use the correct structural elements such as header, footer, main, nav, and form. The links between the three views work great using the `a` element.
-
-The part I didn't like was the duplication of the header and footer code. This is messy, but it will get cleaned up when I get to React.
+HTML is pretty basic, I didn't struggle with creating it, I took more time figuring out how to deploy it to the production environment. I recreated the blueprint I made using HTML, although it doesn't really look the same since CSS hasn't been implemented yet.
 
 ## CSS
 
@@ -97,4 +95,3 @@ Handling the toggling of the checkboxes was particularly interesting.
   ))}
 </div>
 ```
-I already pretty much knew these things, so nothing learned just yet!
